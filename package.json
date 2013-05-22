@@ -1,6 +1,6 @@
 {
     "name": "ecoute-source-file-system",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "A source for Écoute that import data from a file system",
     "author": "Martin Gausby <martin@gausby.dk>",
     "repository": "git@github.com:gausby/ecoute-source-file-system.git",

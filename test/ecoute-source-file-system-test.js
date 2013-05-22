@@ -13,12 +13,12 @@ var refute = buster.assertions.refute;
 
 buster.testCase('A file system source', {
     'should implement a refresh function': function () {
-        var test = new Source();
+        var test = Source();
 
         assert.isFunction(test.refresh);
     },
     'should implement an initialize function': function () {
-        var test = new Source();
+        var test = Source();
 
         assert.isFunction(test.initialize);
     }
@@ -26,7 +26,7 @@ buster.testCase('A file system source', {
 
 buster.testCase('refresh', {
     'should fetch the data from the files specified by the glob pattern': function (done) {
-        var test = new Source({
+        var test = Source({
             'pattern': 'test/assets/foo.txt'
         });
 
@@ -38,7 +38,7 @@ buster.testCase('refresh', {
         });
     },
     'should store the data of a file in a Buffer': function (done) {
-        var test = new Source({
+        var test = Source({
             'pattern': 'test/assets/foo.txt'
         });
 
@@ -48,7 +48,7 @@ buster.testCase('refresh', {
         });
     },
     'should stat the files and save the result in a key called stat': function (done) {
-        var test = new Source({
+        var test = Source({
             'pattern': 'test/assets/foo.txt'
         });
 
@@ -62,7 +62,7 @@ buster.testCase('refresh', {
 
 buster.testCase('initialization', {
     'should call its callback method at some point': function (done) {
-        var test = new Source({});
+        var test = Source({});
 
         test.initialize(function(err) {
             assert.defined(err);

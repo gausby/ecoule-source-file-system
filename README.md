@@ -1,27 +1,27 @@
-File System Source for Écoute
+File System Source for Écoule
 =============================
 
-An [Écoute][ecoute-core] source module that reads data stored on a file system.
+An [Écoule][ecoule-core] source module that reads data stored on a file system.
 
-[ecoute-core]: https://github.com/gausby/ecoute
+[ecoule-core]: https://github.com/gausby/ecoule
 
 This project includes the following third party modules:
 
   * The files are found using the [Glob][node-glob]-module by [Isaac Z. Schlueter][isaacs].
 
-The creators of these modules does not have anything to do with the File System Source for Écoute-project besides that, please direct all the issues and bugs to the right channels. The bugtracker for this project is located here: [File System Source for Écoute Issue tracker][bugtracker].
+The creators of these modules does not have anything to do with the File System Source for Écoule-project besides that, please direct all the issues and bugs to the right channels. The bugtracker for this project is located here: [File System Source for Écoule Issue tracker][bugtracker].
 
 [node-glob]: https://github.com/isaacs/node-glob
 [isaacs]: https://github.com/isaacs
 
 
 ## Usage
-This is a Source module for the Écoute-engine, and should be included in the source section of an Écoute-configuration.
+This is a Source module for the Écoule-engine, and should be included in the source section of an Écoule-configuration.
 
-    var Ecoute = require('ecoute'),
-        fsSource = require('ecoute-source-file-system');
+    var Ecoule = require('ecoule'),
+        fsSource = require('ecoule-source-file-system');
 
-    var myEcoute({
+    var myEcoule({
         sources: [
             fsSource({
                 // configration
@@ -34,7 +34,7 @@ This is a Source module for the Écoute-engine, and should be included in the so
 ### Configuration
 The configuration passed to the file system source is an object with the following keys.
 
-  * `title` The title of the source used internally in Écoute.
+  * `title` The title of the source used internally in Écoule.
 
   * `pattern` A glob pattern.
 
@@ -84,4 +84,4 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-[bugtracker]: https://github.com/gausby/ecoute-source-file-system/issues
+[bugtracker]: https://github.com/gausby/ecoule-source-file-system/issues

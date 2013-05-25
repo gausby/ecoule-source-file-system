@@ -1,16 +1,16 @@
 {
-    "name": "ecoute-source-file-system",
+    "name": "ecoule-source-file-system",
     "version": "0.0.3",
-    "description": "A source for Écoute that import data from a file system",
+    "description": "A source for Écoule that import data from a file system",
     "author": "Martin Gausby <martin@gausby.dk>",
-    "repository": "git@github.com:gausby/ecoute-source-file-system.git",
-    "main": "lib/ecoute-source-file-system.js",
+    "repository": "git@github.com:gausby/ecoule-source-file-system.git",
+    "main": "lib/ecoule-source-file-system.js",
     "dependencies": {
         "glob": "~3.1.2",
         "operandi": "~0.0.4"
     },
     "devDependencies": {
-        "ecoute": "~0.0.3",
+        "ecoule": "~0.0.5",
 
         "grunt": ">= 0.4.0rc7",
         "grunt-buster": ">= 0.1.2",

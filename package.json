@@ -1,6 +1,6 @@
 {
     "name": "ecoule-source-file-system",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "description": "A source for Écoule that import data from a file system",
     "author": "Martin Gausby <martin@gausby.dk>",
     "repository": "git@github.com:gausby/ecoule-source-file-system.git",
